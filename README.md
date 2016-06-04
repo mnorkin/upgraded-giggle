@@ -1,1 +1,1 @@
-# upgraded-giggle
+# STM32 / MPU 9250 I2C This is my masters degree embedded software project.The main goal of this project is to work with STM32F411 platform, connect to MPU 9250 with I2C and collect the data from it.Data collection happens then MPU gives information and the though USB interface, it transfers the data to computer.To compile just run    makeTo flash, write    st-flash write main.bin 0x8000000How to read from tty interface incomming data? PySerial for example
